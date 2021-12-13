@@ -13,7 +13,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 #define DEFAULT 0
-#define NAVI    1
+#define MEDIA   1
 #define MAC	2
 
 / {
@@ -33,11 +33,11 @@
 	&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT  &kp BSLH
 	&kp CLCK  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI &kp SQT           &kp RET
 	&kp LSHFT   &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH           &kp UP
-	&kp LCTRL &kp LGUI &kp LALT             &kp SPACE                     &mo 1  &kp LEFT  &kp DOWN   &kp RIGHT
+	&kp LCTRL &kp LGUI &kp LALT             &kp SPACE                     &mo MEDIA  &kp LEFT  &kp DOWN   &kp RIGHT
 			>;
 		};
 
-		rgb_layer {
+		media_layer {
 // ------------------------------------------------------------------------------------------------
 // | GRAVE | F1  | F2  | F3  | F4  | F5  | F6  | F7  | F8  | F9  | F10  | F11 | F12 |     DEL      |
 // | BT CLR | C_PREV | C_PP | C_NEXT | HUEUP | SATUP | BRIUP | SPDUP |  |  | PSCRN |  |  | EFF REV |
@@ -68,7 +68,7 @@
 	&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT  &kp BSLH
 	&kp CLCK  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI &kp SQT           &kp RET
 	&kp LSHFT   &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH           &kp UP
-	&kp LCTRL &kp LALT &kp LGUI             &kp SPACE                     &mo 1  &kp LEFT  &kp DOWN   &kp RIGHT
+	&kp LCTRL &kp LALT &kp LGUI             &kp SPACE                     &mo MEDIA  &kp LEFT  &kp DOWN   &kp RIGHT
 			>;
 		};
 
